@@ -16,17 +16,6 @@ A lightweight Retrieval-Augmented Generation (RAG) application to semantically s
 
 ---
 
-## Project Structure
-rag-doc-search/
-├── .gradio/              # Gradio logs/flags (auto-generated)
-│   └── flagged/          
-├── .venv/                # Virtual environment (optional)
-├── data/                 # Folder with .txt files (from PDFs)
-├── app.py                # Main app logic (RAG class + Gradio UI)
-├── faiss_index.index     # (Optional) Saved FAISS index (auto-generated)
-└── requirements.txt      # Python dependencies
-
-
 ## Installation
 
 ### 1. Clone the Repository
@@ -40,11 +29,16 @@ pip install -r requirements.txt
 ### 2. Run the App
 python app.py
 
+---
+
 ## check out the demo of the UI
 - demo.png
+
+---
 
 ## Example Questions 
 - What does DDoS mitigation involve?
 - Zero Trust Principles
 - Benefits of Network Segmentation
 - What is cybersecurity
+
